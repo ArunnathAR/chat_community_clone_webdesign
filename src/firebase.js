@@ -7,15 +7,15 @@ import {getAuth} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 
 
-
+//yourown firebase api key and values here
 const firebaseConfig = {            
   apiKey: "yyyyyyyyyyyyyyyyyyy",
   authDomain: "slack-6a926.firebaseapp.com",
   projectId: "slack-6a926",
   storageBucket: "slack-6a926.appspot.com",
   messagingSenderId: "617621957591",
-  appId: "1:617621957591:web:dd650591faa070f6363992",
-  measurementId: "G-WD5SMS1FEW"
+  appId: "1:617621957ojrjfejr591:web:dd65lkjkfjkgsdgghuh",
+  measurementId: "G-WD5SlrhfioheihjojW"
 };
 const fireBaseapp=initializeApp(firebaseConfig);
 const database=getFirestore(fireBaseapp);
